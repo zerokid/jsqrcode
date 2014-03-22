@@ -1,6 +1,6 @@
 {
   "name": "zxing",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A port of LazarSoft's jsqrcode to npm (see https://github.com/LazarSoft/jsqrcode)",
   "main": "lib/qrcode.js",
   "scripts": {
