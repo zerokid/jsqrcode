@@ -11,7 +11,11 @@ This is a port to npm of Lazar Laszlo's port of ZXing qrcode scanner, [http://co
 
 ```javascript
 qrcode = require('zxing');
-qrcode.decode([uri, ]function(result) {
+qrcode.decode([uri, ]function(err, result) {
+  if (err != null) {
+    console.log(err); // Will output any errors found
+    return;
+  }
   console.log(result); // Will output the decoded information
 });
 ```
