@@ -1,0 +1,25 @@
+{
+  "name": "zxing",
+  "version": "0.0.0",
+  "description": "A port of LazarSoft's jsqrcode to npm (see https://github.com/LazarSoft/jsqrcode)",
+  "main": "lib/qrcode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesstelford/jsqrcode.git"
+  },
+  "keywords": [
+    "xzing",
+    "QR",
+    "code",
+    "barcode"
+  ],
+  "author": "Jess Telford <jess@jes.st>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jesstelford/jsqrcode/issues"
+  },
+  "homepage": "https://github.com/jesstelford/jsqrcode"
+}
