@@ -11,22 +11,13 @@ This is a port to npm of Lazar Laszlo's port of ZXing qrcode scanner, [http://co
 
 ```javascript
 qrcode = require('zxing');
-qrcode.callback = function(data) {
-  console.log(data); // Will output the decoded information
-}
-qrcode.decode(url or DataURL)
+qrcode.decode([uri, ]function(result) {
+  console.log(result); // Will output the decoded information
+});
 ```
 
-Alternatively, using a canvas element:
-
-```html
-<canvas id="qr-canvas">
-```
-
-```javascript
-// ...
-qrcode.decode()
-```
+If `uri` is not passed, will instead extract image data from a `canvas` element
+with `id="qr-canvas"`
 
 [new from 2014.01.09]
 For webcam qrcode decoding (included in the test.html) you will need a browser with getUserMedia (WebRTC) capability.
