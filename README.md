@@ -1,3 +1,9 @@
+# Deprecated
+
+The `zxing` package is no longer maintained.
+
+Please use the much more up to date [`qrcode-reader`](https://github.com/edi9999/jsqrcode) package.
+
 # JavaScript QRCode reader for HTML5 enabled browser
 
 2011 Lazar Laszlo  http://lazarsoft.info
